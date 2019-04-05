@@ -1,0 +1,12 @@
+{
+  "name": "lex-1904-indecision",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lexsemenenko/lex-1904-indecision.git",
+  "author": "Lex Semenenko <lex@lex.me>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
