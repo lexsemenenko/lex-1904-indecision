@@ -1,0 +1,1 @@
+This is a playground app to learn React basics.
