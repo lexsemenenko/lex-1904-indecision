@@ -9,6 +9,16 @@ module.exports = {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js'
   },
+
+  devServer: {
+    port: process.env.PORT || 3000,
+    contentBase: path.join(process.cwd(), './public'),
+    watchContentBase: true,
+    stats: 'none',
+    quiet: false,
+    open: true
+  },
+
   module: {
     rules: [
       {

@@ -6,15 +6,16 @@
   "author": "Lex Semenenko <lex@lex.me>",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public/",
-    "build": "webpack --mode production"
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
   },
   "dependencies": {
     "@babel/preset-react": "^7.0.0",
     "live-server": "^1.2.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "webpack": "^4.29.6"
+    "webpack": "^4.29.6",
+    "webpack-dev-server": "^3.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
