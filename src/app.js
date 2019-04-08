@@ -1,3 +1,5 @@
+import './css/main.less';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import IndecisionApp from './components/IndecisionApp';
