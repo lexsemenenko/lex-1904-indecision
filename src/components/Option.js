@@ -5,12 +5,11 @@ const Option = props => {
     <div>
       {props.optionText}
       <button
-        type="submit"
-        onClick={() => {
+        onClick={e => {
           props.handleDeleteOption(props.optionText);
         }}
       >
-        Remove
+        remove
       </button>
     </div>
   );
